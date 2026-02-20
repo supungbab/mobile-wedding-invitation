@@ -682,9 +682,9 @@ a {
   color: white;
 }
 
-.nav-btn__icon--tmap {
-  background: #E94235;
-  color: white;
+.nav-btn__icon--kakao {
+  background: #FEE500;
+  color: #3C1E1E;
 }
 
 .location__transport {
