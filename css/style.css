@@ -36,7 +36,7 @@
   --color-divider: #E5E5E5;
   --font-sans: 'SUIT Variable', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-serif: 'Noto Serif KR', Georgia, serif;
-  --font-cursive: 'Cormorant Garamond', serif;
+  --font-cursive: 'Caveat', cursive;
   --font-cover-serif: 'Nanum Myeongjo', serif;
   --white: #FFFFFF;
   --wrapper-max: 430px;
@@ -154,22 +154,17 @@ a {
 }
 
 .cover__word {
-  font-family: var(--font-cursive);
-  font-size: 43vw;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: -0.04em;
-  line-height: 0.75;
-  margin: 0 0 28px;
-  padding: 0;
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
   opacity: 0;
   animation: coverFadeIn 1.2s ease 0.2s forwards;
 }
 
 .cover__names {
   font-family: var(--font-cover-serif);
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 800;
   letter-spacing: 8px;
   text-align: center;
   white-space: nowrap;
@@ -179,7 +174,7 @@ a {
 
 .cover__dash {
   display: inline-block;
-  width: 40px;
+  width: 50px;
   height: 1px;
   background: var(--white);
   vertical-align: middle;
@@ -197,7 +192,7 @@ a {
 }
 
 .cover__date {
-  font-family: var(--font-cursive);
+  font-family: var(--font-sans);
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 3px;
