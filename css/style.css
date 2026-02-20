@@ -21,11 +21,11 @@
 
 /* ---------- Design Tokens ---------- */
 :root {
-  --color-accent: #9DC4D8;
-  --color-accent-dark: #7AABC4;
-  --color-bg-page: #E0EBF0;
-  --color-bg-light: #F0F6F9;
-  --color-bg-gray: #F5F9FB;
+  --color-accent: #8A9E78;
+  --color-accent-dark: #6B8160;
+  --color-bg-page: #DFE3D7;
+  --color-bg-light: #F0F2EB;
+  --color-bg-gray: #F5F7F2;
   --color-bg-white: #FFFFFF;
   --color-text-primary: #020817;
   --color-text-body: #333333;
